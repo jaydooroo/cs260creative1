@@ -1,0 +1,47 @@
+<!doctype html> 
+    <head>
+        <link rel="stylesheet" href="orderStyle.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+
+    <body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+  <div class = "header">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(252, 251, 255, 0.1)">
+      <a class="navbar-brand" href="index.html">JayDooroo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link disabled" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="article.html">Article</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+        <div class="container">
+            <form id="contactus" action="" method="post">
+                <h3>Contact us form</h3>
+                <fieldset> <input placeholder="name" type="text" tabindex="1" required autofocus> </fieldset>
+                <fieldset> <input placeholder="Email Address" type="email" tabindex="2" required> </fieldset>
+                <fieldset> <input placeholder="Phone Number" type="tel" tabindex="3" required> </fieldset>
+                <fieldset> <textarea placeholder="Type your message here..." tabindex="5" required></textarea> </fieldset>
+                <fieldset> <button name="submit" type="submit" id="contactus-submit" data-submit="...Sending">Send Now</button> </fieldset>
+            </form>
+        </div>
+    </body>
